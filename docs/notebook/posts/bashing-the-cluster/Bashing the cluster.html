@@ -82,9 +82,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-4bd490e9cd57f2396cbd188312c0541c.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-2ca0add11e4a8fa3523d75d676146c27.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-3013ff98ce46c4e5848f7c44e0e4565a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-2ca0add11e4a8fa3523d75d676146c27.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-feaed4436a60a8dac01a1317c6aa936e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-06ca69dab832e792c493d22ea4f2bf97.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-feaed4436a60a8dac01a1317c6aa936e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -418,7 +418,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>This <strong>m</strong>a<strong>k</strong>es a <strong>dir</strong>ectory (<strong>mkdir</strong>) or folder at the current location titled “projects”</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> projects <span class="co"># move inside the projects directory</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>Step 2:</strong> Create sub folders under the project folder</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> cluster-exercise/<span class="dt">{data/raw</span><span class="op">,</span><span class="dt">results</span><span class="op">,</span><span class="dt">logs</span><span class="op">,</span><span class="dt">scripts}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> cluster-exercise/<span class="dt">{data/raw</span><span class="op">,</span><span class="dt">results</span><span class="op">,</span><span class="dt">logs</span><span class="op">,</span><span class="dt">src}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>In order to create multiple directories at the same time you can use :</p>
 <ul>
 <li><p><code>-p</code> : Create directory/directories</p></li>
@@ -450,7 +450,8 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Before we download the data, move inside working directory- which would be the <code>cluster-exercise</code> directory. How do you do that? <em>Hint:</em> You need to <strong>c</strong>hange <strong>d</strong>irectory inside <code>cluster-exercise</code> directory</p>
+<p>Before we download the data, move inside working directory- which would be the <code>cluster-exercise</code> directory. How do you do that?</p>
+<p><em>Hint:</em> You need to <strong>c</strong>hange <strong>d</strong>irectory inside <code>cluster-exercise</code> directory</p>
 </div>
 </div>
 <p>If you are in the right folder on your home (~) directory then run <code>pwd</code> in the terminal. The path would be something like this: <code>/home/alias/projects/cluster-exercise</code> where <code>alias</code> would be your username on the cluster.</p>
